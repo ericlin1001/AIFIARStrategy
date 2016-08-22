@@ -1,0 +1,18 @@
+﻿Build started 2012/7/16 15:34:56.
+     1>Project "D:\myDocument\大一下学习\AI-FIAR\projects\Start\EricStratety5\EricStratety\EricStratety.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\EricStratety.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         EricStratety.vcxproj -> D:\myDocument\大一下学习\AI-FIAR\projects\Start\EricStratety5\Release\EricStratety.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\EricStratety.unsuccessfulbuild".
+         Touching "Release\EricStratety.lastbuildstate".
+     1>Done Building Project "D:\myDocument\大一下学习\AI-FIAR\projects\Start\EricStratety5\EricStratety\EricStratety.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

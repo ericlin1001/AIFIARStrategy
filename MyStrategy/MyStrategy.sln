@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyStrategy", "MyStrategy\MyStrategy.vcxproj", "{7906A709-1554-4965-A017-BF67F8B37028}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallTest", "CallTest\CallTest.vcxproj", "{81567550-8876-4F89-A237-6A8DF18C31CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7906A709-1554-4965-A017-BF67F8B37028}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7906A709-1554-4965-A017-BF67F8B37028}.Debug|Win32.Build.0 = Debug|Win32
+		{7906A709-1554-4965-A017-BF67F8B37028}.Release|Win32.ActiveCfg = Release|Win32
+		{7906A709-1554-4965-A017-BF67F8B37028}.Release|Win32.Build.0 = Release|Win32
+		{81567550-8876-4F89-A237-6A8DF18C31CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81567550-8876-4F89-A237-6A8DF18C31CE}.Debug|Win32.Build.0 = Debug|Win32
+		{81567550-8876-4F89-A237-6A8DF18C31CE}.Release|Win32.ActiveCfg = Release|Win32
+		{81567550-8876-4F89-A237-6A8DF18C31CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

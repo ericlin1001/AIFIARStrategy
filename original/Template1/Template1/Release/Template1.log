@@ -1,0 +1,17 @@
+﻿Build started 2012/6/25 22:25:48.
+     1>Project "D:\myDocument\大一下学习\AI-FIAR\projects\original\Template1\Template1\Template1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Template1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Template1.vcxproj -> D:\myDocument\大一下学习\AI-FIAR\projects\original\Template1\Release\Template1.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\Template1.unsuccessfulbuild".
+         Touching "Release\Template1.lastbuildstate".
+     1>Done Building Project "D:\myDocument\大一下学习\AI-FIAR\projects\original\Template1\Template1\Template1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

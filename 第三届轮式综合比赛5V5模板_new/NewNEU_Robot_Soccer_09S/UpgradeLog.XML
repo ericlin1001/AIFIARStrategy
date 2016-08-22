@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewNEU">
+</Property><Property Name="Solution File" Value="D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU.sln">
+</Property><Property Name="User Options File" Value="D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU.suo">
+</Property><Property Name="Date" Value="2012年6月9日">
+</Property><Property Name="Time" Value="17:31">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NewNEU.sln" Description="File successfully backed up as D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="NewNEU.suo" Description="File successfully backed up as D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU.suo.old">
+</Event><Event ErrorLevel="0" Project="NewNEU" Source="NewNEU\NewNEU.vcproj" Description="Converting project file 'D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU\NewNEU.vcproj'.">
+</Event><Event ErrorLevel="1" Project="NewNEU" Source="NewNEU\NewNEU.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="NewNEU" Source="NewNEU\NewNEU.vcproj" Description="Done converting to new project file 'D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU\NewNEU.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="NewNEU" Source="NewNEU\NewNEU.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NewNEU.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NewNEU.sln" Description="Converted">
+</Event></UpgradeLog>

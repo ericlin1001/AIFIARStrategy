@@ -1,0 +1,57 @@
+﻿Build started 2012/6/15 0:19:44.
+     1>Project "D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\NewNEU\NewNEU.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\NewNEU-copy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NEWNEU_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt newneu.cc strategy.cc
+         newneu.cc
+     1>newneu.cc(61): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Match_State' used in qualified name
+     1>newneu.cc(70): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Ball_Ownership' used in qualified name
+     1>newneu.cc(71): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>newneu.cc(73): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>newneu.cc(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>newneu.cc(124): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>newneu.cc(124): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         strategy.cc
+     1>strategy.cc(40): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Area' used in qualified name
+     1>strategy.cc(52): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Match_State' used in qualified name
+     1>strategy.cc(54): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Match_State' used in qualified name
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s - 副本\newneu\BasicScriptServer.h(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s - 副本\newneu\BasicScriptServer.h(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>strategy.cc(78): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>strategy.cc(81): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>strategy.cc(92): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\NewNEU-copy.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.lib" /MACHINE:X86 /DLL Release\BasicScriptServer.obj
+         Release\dllmain.obj
+         Release\field_information.obj
+         Release\GeometryR.obj
+         Release\logger.obj
+         Release\newneu.obj
+         Release\objects.obj
+         Release\scripting_system.obj
+         Release\stdafx.obj
+         Release\strategy.obj
+            Creating library D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.lib and object D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.exp
+         Generating code
+         Finished generating code
+         NewNEU.vcxproj -> D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\Release\NewNEU-copy.dll;#2" /manifest "Release\NewNEU-copy.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\NewNEU-copy.unsuccessfulbuild".
+         Touching "Release\NewNEU-copy.lastbuildstate".
+     1>Done Building Project "D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S - 副本\NewNEU\NewNEU.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.00

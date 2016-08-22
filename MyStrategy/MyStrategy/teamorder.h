@@ -1,0 +1,175 @@
+/**************************************************************************************************** 
+teamorder.h 艾数机器人队形头文件 
+ 
+Purpose: 
+	完成特定目的地队形分配，每个队形使用最合适的角色 
+****************************************************************************************************/ 
+ 
+#ifndef __ROBOT_TEAM_ORDER_H__ 
+#define __ROBOT_TEAM_ORDER_H__ 
+#include "base.h" 
+ 
+class AreaInfo; 
+class TeamOrder; 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////// 
+// 
+// 队形管理 
+// 
+class TeamManager 
+{ 
+public: 
+	TeamManager (void); 
+	~TeamManager (void); 
+	/** 
+	 * 添加队形 
+	 */ 
+	void addTeam (TeamOrder *team); 
+	/** 
+	 * 跟据状态获得队形 
+	 */ 
+	TeamOrder *getTeam (const AreaInfo *areaInfo, 
+						BallSpeed speed, 
+						BallDirection direction, 
+						BallPower power, 
+						GuardLeak leak); 
+protected: 
+	// 
+	// 队形库 
+	// 
+	vector <TeamOrder *> teams; 
+}; // end class TeamManager 
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////// 
+// 
+// 队形 
+// 
+class TeamOrder 
+{ 
+public: 
+	TeamOrder (TeamType type); 
+	~TeamOrder (void); 
+ 
+	/** 
+	 * 获得队形所安排的角色 
+	 */ 
+	RoleType *getRoles (void) {return roles;}; 
+	virtual char *getName(){return "TeamOrder";}
+protected: 
+	/** 
+	 * 条件是否命中 
+	 */ 
+	virtual bool isHit (const AreaInfo *areaInfo, 
+						BallSpeed speed, 
+						BallDirection direction, 
+						BallPower power, 
+						GuardLeak leak); 
+ 
+	/** 
+	 * 不同的队形使用不同的角色 
+	 * 初始化分配角色 
+	 * 最重要的角色安排在最前面 
+	 */ 
+	virtual bool initRoles (void) 
+	{ 
+		return false; 
+	}; 
+ 
+	/** 
+	 * 初始化使用队形时所需要的状态条件 
+	 */ 
+	virtual bool initCondition (void) 
+	{ 
+		return false; 
+	}; 
+ 
+protected: 
+	// 
+	// 最重要的角色排在最前面 0 -> 1 -> 2 -> 3 -> 4 
+	// 
+	void addRole (RoleType role, int index);			// 添加角色 
+ 
+	void addBallArea (BallArea area);					// 添加符合的区域 
+	void addBallSpeed (BallSpeed speed);				// 添加符合的球的速度 
+	void addBallDirection (BallDirection direction);	// 添加符合的球的运动方向 
+	void addBallPower (BallPower power);				// 添加符合的球控制权 
+	void addGuardLeak (GuardLeak leak);					// 添加符合的漏洞情况 
+ 
+	void addAllArea (void);								// 添加所有区域 
+	void addAllSpeed (void);							// 添加所有速度 
+	void addAllDirection (void);						// 添加所有方向 
+	void addAllPower (void);							// 添加所有控制权 
+	void addAllGuardLeak (void);						// 添加所有漏洞 
+ 
+protected: 
+	// 
+	// 队形所需要的角色 
+	// 
+	RoleType roles[PLAYERS_PER_SIDE]; 
+ 
+	// 
+	// 使用队形时所需要的状态条件 
+	// 
+	vector <BallArea> areas; 
+	vector <BallSpeed> speeds; 
+	vector <BallDirection> directions; 
+	vector <BallPower> powers; 
+	vector <GuardLeak> leaks; 
+ 
+	TeamType teamType; 
+ 
+	friend class TeamManager; 
+}; // end TeamOrder 
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////// 
+// 
+// 进攻队形 - TN_ATTACK 
+// 
+class AttackTeam : public TeamOrder 
+{ 
+public: 
+	AttackTeam (void) 
+		: TeamOrder (TT_ATTACK) 
+	{ 
+		Show("AttackTeam constructor");
+		Show("end AttackTeam constructor");
+	}; 
+	/** 
+	 * 初始化分配角色 
+	 */ 
+	virtual bool initRoles (void); 
+	virtual char *getName(){return "AttackTeam";}
+	/** 
+	 * 初始化使用队形时所需要的状态条件 
+	 */ 
+	virtual bool initCondition (void); 
+}; // end class AttackTeam 
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////// 
+// 
+// 防守队形 - TN_DEFEND 
+// 
+class DefendTeam : public TeamOrder 
+{ 
+public: 
+	DefendTeam (void) 
+		: TeamOrder (TT_ATTACK) 
+	{ 
+		Show("DefendTeam constructor");
+		Show("end DefendTeam constructor");
+	}; 
+ 
+	/** 
+	 * 初始化分配角色 
+	 */ 
+	virtual bool initRoles (void); 
+	virtual char *getName(){return "DefendTeam";}
+	/** 
+	 * 初始化使用队形时所需要的状态条件 
+	 */ 
+	virtual bool initCondition (void); 
+}; // end class DefendTeam 
+ 
+#endif // __ROBOT_TEAM_ORDER_H__
+
+

@@ -1,0 +1,293 @@
+﻿Build started 2012/6/15 0:16:29.
+     1>Project "D:\myDocument\大一下学习\AI-FIAR\projects\第三届轮式综合比赛5V5模板_new\NewNEU_Robot_Soccer_09S\NewNEU\NewNEU.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\NewNEU.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NEWNEU_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt action.cpp area.cpp base.cpp eisoo.cpp field_information.cc interface.cc InterFace.cpp robotrole.cpp strategy.cc teamorder.cpp
+         action.cpp
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(42): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(42): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(42): error C2062: type 'int' unexpected
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(53): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(53): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(53): error C2062: type 'double' unexpected
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(58): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(58): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(58): error C2062: type 'double' unexpected
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(68): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(68): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(68): error C2059: syntax error : 'const'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(76): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(76): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(76): error C2059: syntax error : 'const'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(81): error C2065: 'Robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(81): error C2065: 'robot' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(81): error C2182: 'actReaveBall' : illegal use of type 'void'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\action.h(81): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         area.cpp
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+         base.cpp
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>base.cpp(21): error C2065: 'BF_UNKNOWN' : undeclared identifier
+     1>base.cpp(22): error C2065: 'BF_UNKNOWN' : undeclared identifier
+     1>base.cpp(23): error C2065: 'FLEFTX' : undeclared identifier
+     1>base.cpp(23): error C2146: syntax error : missing ')' before identifier 'FORBIDDEN_ZONE_X'
+     1>base.cpp(23): error C2059: syntax error : ')'
+     1>base.cpp(24): error C2065: 'FORBIDDEN_ZONE_X' : undeclared identifier
+     1>base.cpp(24): error C2146: syntax error : missing ';' before identifier 'ballField'
+     1>base.cpp(24): error C2065: 'BF_IS_LEFT' : undeclared identifier
+     1>base.cpp(25): error C2181: illegal else without matching if
+     1>base.cpp(26): error C2065: 'BF_IS_RIGHT' : undeclared identifier
+     1>base.cpp(40): error C2065: 'BF_IS_LEFT' : undeclared identifier
+     1>base.cpp(46): error C2065: 'FRIGHTX' : undeclared identifier
+     1>base.cpp(46): error C2065: 'FLEFTX' : undeclared identifier
+     1>base.cpp(58): error C2065: 'BF_IS_LEFT' : undeclared identifier
+     1>base.cpp(61): error C2143: syntax error : missing ')' before 'constant'
+     1>base.cpp(61): error C2059: syntax error : ')'
+     1>base.cpp(62): error C2146: syntax error : missing ';' before identifier 'rotation'
+     1>base.cpp(63): error C2181: illegal else without matching if
+     1>base.cpp(72): error C2106: '=' : left operand must be l-value
+     1>base.cpp(72): error C2106: '=' : left operand must be l-value
+         eisoo.cpp
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(78): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(85): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(112): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(112): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(119): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(143): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(143): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(150): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(135): error C2065: 'PT_VANGUARD_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(174): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(181): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(166): error C2065: 'PT_VANGUARD_BOTTOM' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(207): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(214): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(197): error C2065: 'PT_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(240): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(240): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(247): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(230): error C2065: 'PT_ATTACK_DEFEND' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(271): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(271): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(278): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(263): error C2065: 'PT_DEFEND_LEFT_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(302): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(302): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(309): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(294): error C2065: 'PT_DEFEND_LEFT_BOT' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(332): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(332): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(339): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(324): error C2065: 'PT_DEFEND_RIGHT_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(362): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(369): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(354): error C2065: 'PF_DEFEND_RIGHT_BOT' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(60): error C2061: syntax error : identifier 'TeamNumber'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(144): error C2065: 'TN_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(167): error C2065: 'TN_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(39): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(44): error C2061: syntax error : identifier 'Environment'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(97): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(98): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(98): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(124): error C2061: syntax error : identifier 'Environment'
+     1>eisoo.cpp(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>eisoo.cpp(39): error C2143: syntax error : missing ',' before '&'
+     1>eisoo.cpp(44): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(44): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(44): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(44): error C2228: left of '.x' must have class/struct/union
+     1>eisoo.cpp(44): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(44): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(44): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(44): error C2228: left of '.y' must have class/struct/union
+     1>eisoo.cpp(49): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(49): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(49): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(49): error C2228: left of '.x' must have class/struct/union
+     1>eisoo.cpp(49): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(49): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(49): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(49): error C2228: left of '.y' must have class/struct/union
+     1>eisoo.cpp(49): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(49): error C2228: left of '.lastBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(49): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(49): error C2228: left of '.x' must have class/struct/union
+     1>eisoo.cpp(49): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(49): error C2228: left of '.lastBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(49): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(49): error C2228: left of '.y' must have class/struct/union
+     1>eisoo.cpp(54): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(54): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(54): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(54): error C2228: left of '.x' must have class/struct/union
+     1>eisoo.cpp(54): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(54): error C2228: left of '.currentBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(54): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(54): error C2228: left of '.y' must have class/struct/union
+     1>eisoo.cpp(54): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(54): error C2228: left of '.lastBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(54): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(54): error C2228: left of '.x' must have class/struct/union
+     1>eisoo.cpp(54): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(54): error C2228: left of '.lastBall' must have class/struct/union
+                 type is ''unknown-type''
+     1>eisoo.cpp(54): error C2228: left of '.pos' must have class/struct/union
+     1>eisoo.cpp(54): error C2228: left of '.y' must have class/struct/union
+     1>eisoo.cpp(59): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(64): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(69): error C2065: 'Environment' : undeclared identifier
+     1>eisoo.cpp(69): error C2065: 'env' : undeclared identifier
+     1>eisoo.cpp(70): error C2448: 'BallFieldState::predictBall' : function-style initializer appears to be a function definition
+     1>eisoo.cpp(103): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(109): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(109): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(112): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(112): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(115): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(115): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(118): error C2065: 'BALL_DIAMETER' : undeclared identifier
+     1>eisoo.cpp(139): error C2146: syntax error : missing ')' before identifier 'lastY'
+     1>eisoo.cpp(139): error C2059: syntax error : ')'
+     1>eisoo.cpp(139): error C2143: syntax error : missing ';' before '{'
+     1>eisoo.cpp(142): error C2181: illegal else without matching if
+     1>eisoo.cpp(145): error C2146: syntax error : missing ')' before identifier 'lastX'
+     1>eisoo.cpp(145): error C2059: syntax error : ')'
+     1>eisoo.cpp(145): fatal error C1003: error count exceeds 100; stopping compilation
+         field_information.cc
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(9): error C2272: 'get_field_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(10): error C2272: 'get_field_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(11): error C2272: 'get_penalty_area_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(12): error C2272: 'get_penalty_area_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(13): error C2272: 'get_goal_area_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(14): error C2272: 'get_goal_area_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(15): error C2272: 'get_goal_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(16): error C2272: 'get_goal_width' : modifiers not allowed on static member functions
+         interface.cc
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(9): error C2272: 'get_field_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(10): error C2272: 'get_field_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(11): error C2272: 'get_penalty_area_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(12): error C2272: 'get_penalty_area_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(13): error C2272: 'get_goal_area_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(14): error C2272: 'get_goal_area_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(15): error C2272: 'get_goal_length' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\field_information.h(16): error C2272: 'get_goal_width' : modifiers not allowed on static member functions
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\strategy.h(20): error C2065: 'field_information_' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\strategy.h(21): error C2065: 'filedata_' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\strategy.h(23): error C2065: 'debugdata_' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\strategy.h(26): error C2065: 'debugdata_' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(46): warning C4091: '' : ignored on left of 'const double' when no variable is declared
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(46): error C2143: syntax error : missing ';' before 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(46): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>interface.cc(55): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Match_State' used in qualified name
+     1>interface.cc(64): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Ball_Ownership' used in qualified name
+     1>interface.cc(65): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>interface.cc(67): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>interface.cc(69): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Match_State' used in qualified name
+     1>interface.cc(70): error C2653: 'FiedlInfo' : is not a class or namespace name
+     1>interface.cc(70): error C2589: ')' : illegal token on right side of '::'
+     1>interface.cc(70): error C2059: syntax error : '::'
+     1>interface.cc(71): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>interface.cc(72): error C2181: illegal else without matching if
+     1>interface.cc(72): warning C4482: nonstandard extension used: enum 'FieldInformationBasis::Penalty_State' used in qualified name
+     1>interface.cc(123): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>interface.cc(123): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         InterFace.cpp
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(96): error C2059: syntax error : 'constant'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2143: syntax error : missing ';' before '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(98): error C2059: syntax error : '}'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\base.h(269): warning C4482: nonstandard extension used: enum 'RoleType' used in qualified name
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\area.h(47): error C2106: '=' : left operand must be l-value
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(78): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(85): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(112): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(112): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(119): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(143): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(143): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(150): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(135): error C2065: 'PT_VANGUARD_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(174): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(181): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(166): error C2065: 'PT_VANGUARD_BOTTOM' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(207): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(214): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(197): error C2065: 'PT_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(240): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(240): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(247): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(230): error C2065: 'PT_ATTACK_DEFEND' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(271): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(271): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(278): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(263): error C2065: 'PT_DEFEND_LEFT_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(302): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(302): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(309): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(294): error C2065: 'PT_DEFEND_LEFT_BOT' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(332): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(332): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(339): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(324): error C2065: 'PT_DEFEND_RIGHT_TOP' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(362): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(362): error C2143: syntax error : missing ',' before '*'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(369): error C2061: syntax error : identifier 'Robot'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\robotrole.h(354): error C2065: 'PF_DEFEND_RIGHT_BOT' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(60): error C2061: syntax error : identifier 'TeamNumber'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(144): error C2065: 'TN_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\teamorder.h(167): error C2065: 'TN_ATTACK' : undeclared identifier
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(39): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(44): error C2061: syntax error : identifier 'Environment'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(97): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(98): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(98): error C2143: syntax error : missing ',' before '&'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\eisoo.h(124): error C2061: syntax error : identifier 'Environment'
+     1>d:\mydocument\大一下学习\ai-fiar\projects\第三届轮式综合比赛5v5模板_new\newneu_robot_soccer_09s\newneu\GeometryR.h(268113012): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         robotrole.cpp
